@@ -19,7 +19,7 @@ function ProjectCards(props) {
             justifyContent: props.liveLink ? 'space-between' : 'center',
           }}
         >
-          <Button variant="primary" href={props.link} target="_blank">
+          {/* <Button variant="primary" href={props.link} target="_blank">
             <BiLinkExternal /> &nbsp;
             {props.isBlog ? 'View Blog' : 'Github'}
           </Button>
@@ -27,7 +27,7 @@ function ProjectCards(props) {
             <Button variant="primary" href={props.liveLink} target="_blank">
               <BiLinkExternal /> &nbsp; Live
             </Button>
-          )}
+          )} */}
         </div>
       </Card.Body>
     </Card>

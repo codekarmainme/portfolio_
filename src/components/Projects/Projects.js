@@ -8,6 +8,9 @@ import weather from "../../Assets/Projects/weather.PNG";
 import foodapp from "../../Assets/fodoapp.png";
 import fitnessapp from '../../Assets/iPhone 16.png';
 import housesell from '../../Assets/housesell.png';
+import ambalay from '../../Assets/Ambaly figma.png';
+import ambalayWeb from '../../Assets/Ambalay.png';
+
 import ReactGA from "react-ga";
 
 
@@ -28,6 +31,16 @@ function Projects() {
         </p>
        
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ambalay}
+              isBlog={false}
+              title="Ambalay Maps"
+              description="The app help organizations and individuals to get the best route between locations, gecoding and reverse geocoding, and integration with our API."
+              link="https://github.com/amexyegondar/React_weather_web_application"
+              liveLink='https://react-weather-web-application-two.vercel.app'
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={foodapp}
@@ -60,6 +73,17 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={ambalayWeb}
+              isBlog={false}
+              title="Ambalay Maps Website"
+              description="The web app help organizations and individuals to get the best route between locations, gecoding and reverse geocoding, and integration with our API.
+              "
+              link="https://github.com/amexyegondar/AllMartEcommerce"
+              liveLink="https://all-mart-ecommerce.vercel.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={ecommerce}
               isBlog={false}
               title="AllMart Ecommerce"
@@ -73,31 +97,6 @@ function Projects() {
               liveLink="https://all-mart-ecommerce.vercel.app"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={movie}
-              isBlog={false}
-              title="Wetat Meznagna"
-              description='This website purposely made for young people to enjoy their break by movies made in Ethiopia
-              ,America, Hind.Your vacation time matter us.Your movie companion with interactive and use friendly interface.'
-              link="https://github.com/amexyegondar/movie-weta-meznagna"
-              liveLink="https://movie-weta-meznagna.vercel.app"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={weather}
-              isBlog={false}
-              title="Weather Application"
-              description="Stay connected with your cloud through our first ethiopian weather web application. Know where and when to go. 
-              Make your day predictable. Dress based on our real time information about your city in the  world."
-              link="https://github.com/amexyegondar/React_weather_web_application"
-              liveLink='https://react-weather-web-application-two.vercel.app'
-            />
-          </Col>
-          
 
           
         </Row>
