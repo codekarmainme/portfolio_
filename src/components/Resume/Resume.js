@@ -79,7 +79,7 @@ function Resume() {
               title=""
               content={[
                 `I stood first in my Department and graduate in a very high distiniction status.`,
-                `I Develop unique AI based application in 2023.`,
+                `I Developed unique AI based application in 2023.`,
               ]}
             />
           </Col>
